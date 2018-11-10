@@ -1,4 +1,6 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
 /* $m=new MongoClient();
 $db=$m->mydatabase;
          $collection=$db->sinfo;
