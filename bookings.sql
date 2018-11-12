@@ -1,7 +1,8 @@
 CREATE TABLE bookings (
 `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-name varchar(20) null,
-email varchar(20) null,
-passengers varchar(2) null,
-departure date null
+email varchar(30) null,
+Name varchar(30) null,
+DOB date null,
+Address varchar(30) null,
+Dance Type varchar(30) null
 )ENGINE=innodb;
